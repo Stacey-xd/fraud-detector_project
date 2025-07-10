@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+models/
+*.pkl
+.env
+data/creditcard_isoforest_cleaned_001.csv
+data/creditcard_preprocessed.csv
+data/creditcard.csv
