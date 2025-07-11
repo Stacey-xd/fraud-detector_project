@@ -1,5 +1,5 @@
 __pycache__/
-*.pyc
+*.pycfind . -name .DS_Store -print0 | xargs -0 git rm --cached
 .ipynb_checkpoints/
 models/
 *.pkl
@@ -7,3 +7,4 @@ models/
 data/creditcard_isoforest_cleaned_001.csv
 data/creditcard_preprocessed.csv
 data/creditcard.csv
+.DS_Store
